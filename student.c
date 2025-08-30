@@ -34,5 +34,5 @@ int main(){
         stu[i].course[strcspn(stu[i].course,"\n")]='\0';
     }
   check(stu[0],stu[1]);
-  return 0;
+    return 0;
 }
